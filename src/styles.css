@@ -1,4 +1,7 @@
 :root {
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
   --bg: #f2f0ec;
   --surface: #ffffff;
   --surface-alt: #eae7e1;
