@@ -112,7 +112,7 @@ export default function SiteInstitucional() {
             <img
               src="/logo-cbl.png"
               alt="CBL Soluções"
-              className="h-20 w-auto object-contain"
+              className="h-24 w-auto object-contain"
             />
             <div>
               <div
