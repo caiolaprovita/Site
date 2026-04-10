@@ -169,56 +169,6 @@ export default function SiteInstitucional() {
     </a>
 
   </div>
-</header>
-          <div className="flex items-center gap-3">
-            <img
-              src="/logo-cbl.png"
-              alt="CBL Soluções"
-              className="h-24 w-auto object-contain"
-            />
-            <div>
-              <div
-                className="text-lg font-semibold tracking-tight"
-                style={{ color: "#124F7E" }}
-              >
-                CBL Soluções
-              </div>
-              <div className="text-xs uppercase tracking-[0.2em] text-zinc-500">
-                Elétrica e automação
-              </div>
-            </div>
-          </div>
-
-          <nav className="hidden items-center gap-8 md:flex">
-            <a href="#servicos" className="text-sm text-zinc-700 hover:text-zinc-950">
-              Serviços
-            </a>
-            <a href="#diferenciais" className="text-sm text-zinc-700 hover:text-zinc-950">
-              Diferenciais
-            </a>
-            <a href="#processo" className="text-sm text-zinc-700 hover:text-zinc-950">
-              Processo
-            </a>
-            <a href="#contato" className="text-sm text-zinc-700 hover:text-zinc-950">
-              Contato
-            </a>
-          </nav>
-
-          <a
-            href="https://wa.me/message/7LGLNQBLBVARO1"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button
-              className="rounded-xl px-4 py-2 text-sm font-medium transition hover:opacity-90"
-              style={{ backgroundColor: "#EF7D00", color: "#fff" }}
-            >
-              WhatsApp
-            </button>
-          </a>
-        </div>
-      </header>
-
       <main>
         <section
           className="relative overflow-hidden"
