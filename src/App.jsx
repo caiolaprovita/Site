@@ -107,9 +107,9 @@ export default function SiteInstitucional() {
     backdropFilter: "blur(12px)",
   }}
 >
-  <div className="mx-auto flex max-w-7xl items-center px-6 py-5 lg:px-8">
-    {/* ESQUERDA */}
-    <div className="flex min-w-[320px] items-center gap-4">
+  <div className="mx-auto flex max-w-7xl items-center gap-8 px-6 py-5 lg:px-8">
+    {/* LOGO */}
+    <div className="flex items-center gap-4 shrink-0">
       <img
         src="/logo-cbl.png"
         alt="CBL Soluções"
@@ -128,24 +128,42 @@ export default function SiteInstitucional() {
       </div>
     </div>
 
-    {/* CENTRO */}
-    <nav className="mx-auto hidden items-center gap-8 lg:flex">
-      <a href="#servicos" className="text-sm font-medium text-zinc-700 hover:text-zinc-950">
-        Serviços
-      </a>
-      <a href="#diferenciais" className="text-sm font-medium text-zinc-700 hover:text-zinc-950">
-        Diferenciais
-      </a>
-      <a href="#processo" className="text-sm font-medium text-zinc-700 hover:text-zinc-950">
-        Processo
-      </a>
-      <a href="#contato" className="text-sm font-medium text-zinc-700 hover:text-zinc-950">
-        Contato
-      </a>
-    </nav>
+    {/* MENU */}
+    <div className="flex-1 flex justify-center">
+      <nav className="flex items-center gap-6 xl:gap-8">
+        <a
+          href="#servicos"
+          className="text-sm font-medium"
+          style={{ color: "#124F7E" }}
+        >
+          Serviços
+        </a>
+        <a
+          href="#diferenciais"
+          className="text-sm font-medium"
+          style={{ color: "#124F7E" }}
+        >
+          Diferenciais
+        </a>
+        <a
+          href="#processo"
+          className="text-sm font-medium"
+          style={{ color: "#124F7E" }}
+        >
+          Processo
+        </a>
+        <a
+          href="#contato"
+          className="text-sm font-medium"
+          style={{ color: "#124F7E" }}
+        >
+          Contato
+        </a>
+      </nav>
+    </div>
 
-    {/* DIREITA */}
-    <div className="ml-auto">
+    {/* BOTÃO */}
+    <div className="shrink-0">
       <a
         href="https://wa.me/message/7LGLNQBLBVARO1"
         target="_blank"
