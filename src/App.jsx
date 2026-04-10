@@ -99,7 +99,7 @@ export default function SiteInstitucional() {
       className="min-h-screen text-zinc-950"
       style={{ backgroundColor: "#F2F0EC" }}
     >
-     <header
+    <header
   className="sticky top-0 z-50 border-b"
   style={{
     backgroundColor: "rgba(242,240,236,0.94)",
@@ -107,10 +107,9 @@ export default function SiteInstitucional() {
     backdropFilter: "blur(12px)",
   }}
 >
-  <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
-
-    {/* LOGO */}
-    <div className="flex items-center gap-4">
+  <div className="mx-auto flex max-w-7xl items-center px-6 py-5 lg:px-8">
+    {/* ESQUERDA */}
+    <div className="flex min-w-[320px] items-center gap-4">
       <img
         src="/logo-cbl.png"
         alt="CBL Soluções"
@@ -129,8 +128,8 @@ export default function SiteInstitucional() {
       </div>
     </div>
 
-    {/* MENU */}
-    <nav className="hidden md:flex items-center gap-8">
+    {/* CENTRO */}
+    <nav className="mx-auto hidden items-center gap-8 lg:flex">
       <a href="#servicos" className="text-sm font-medium text-zinc-700 hover:text-zinc-950">
         Serviços
       </a>
@@ -145,20 +144,21 @@ export default function SiteInstitucional() {
       </a>
     </nav>
 
-    {/* BOTÃO */}
-    <a
-      href="https://wa.me/message/7LGLNQBLBVARO1"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <button
-        className="rounded-xl px-4 py-2 text-sm font-medium transition hover:opacity-90"
-        style={{ backgroundColor: "#EF7D00", color: "#fff" }}
+    {/* DIREITA */}
+    <div className="ml-auto">
+      <a
+        href="https://wa.me/message/7LGLNQBLBVARO1"
+        target="_blank"
+        rel="noreferrer"
       >
-        WhatsApp
-      </button>
-    </a>
-
+        <button
+          className="rounded-xl px-4 py-2 text-sm font-medium transition hover:opacity-90"
+          style={{ backgroundColor: "#EF7D00", color: "#fff" }}
+        >
+          WhatsApp
+        </button>
+      </a>
+    </div>
   </div>
 </header>
       <main>
