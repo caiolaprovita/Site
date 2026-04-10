@@ -246,11 +246,11 @@ export default function SiteInstitucional() {
                     rel="noreferrer"
                   >
                     <button
-                      className="rounded-xl border px-6 py-3 text-base font-medium text-white transition hover:bg-white/10"
-                      style={{ borderColor: "rgba(255,255,255,0.28)" }}
-                    >
-                      Ver Instagram
-                    </button>
+  className="rounded-xl px-6 py-3 text-base font-medium transition hover:opacity-90"
+  style={{ backgroundColor: "#EF7D00", color: "#fff" }}
+>
+  Ver Instagram
+</button>
                   </a>
                 </div>
 
