@@ -165,7 +165,7 @@ export default function SiteInstitucional() {
     {/* BOTÃO */}
     <div className="shrink-0">
       <a
-        href="https://wa.me/message/7LGLNQBLBVARO1"
+        href="https://wa.me/message/YUBGDMVQRFOSP1"
         target="_blank"
         rel="noreferrer"
       >
@@ -227,7 +227,7 @@ export default function SiteInstitucional() {
 
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                   <a
-                    href="https://wa.me/message/7LGLNQBLBVARO1"
+                    href="https://wa.me/message/YUBGDMVQRFOSP1"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -519,7 +519,7 @@ export default function SiteInstitucional() {
 
                 <div className="mt-8 space-y-4">
                   <a
-                    href="https://wa.me/message/7LGLNQBLBVARO1"
+                    href="https://wa.me/message/YUBGDMVQRFOSP1"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center gap-3 text-zinc-700 hover:text-zinc-950"
@@ -572,7 +572,7 @@ export default function SiteInstitucional() {
                 </p>
 
                 <a
-                  href="https://wa.me/message/7LGLNQBLBVARO1"
+                  href="https://wa.me/message/YUBGDMVQRFOSP1"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -590,7 +590,7 @@ export default function SiteInstitucional() {
       </main>
 
       <a
-        href="https://wa.me/message/7LGLNQBLBVARO1"
+        href="https://wa.me/message/YUBGDMVQRFOSP1"
         target="_blank"
         rel="noreferrer"
         className="fixed bottom-5 right-5 z-50"
